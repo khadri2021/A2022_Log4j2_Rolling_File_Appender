@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="INFO">
+	<Appenders>
+		<Console name="ConsoleLog" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} {%t} %-5level %logger{36} -%msg%n" />
+		</Console>
+
+		<File name="ErrorLog" fileName="./logs/error.log"
+			immediateFlush="true" append="true">
+			<PatternLayout
+				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+		<File name="ServerLog" fileName="./logs/server.log"
+			immediateFlush="true" append="true">
+			<PatternLayout
+				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+
+		<RollingFile  name="Swiggy" fileName="./logs/rolling.log"  filePattern="./logs/rolling.%d{dd-MMM}.%ilog"
+			immediateFlush="true" append="true">
+			<PatternLayout
+				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<Policies>
+				<OnStartupTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="3 KB" />
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+			<DefaultRolloverStrategy max="5" />
+		</RollingFile>
+
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="ConsoleLog" />
+		</Root>
+		<Logger name="error.logger" level="warn" additivity="false">
+			<AppenderRef ref="ErrorLog" level="warn" />
+		</Logger>
+		<Logger name="server.logger" level="info" additivity="false">
+			<AppenderRef ref="ServerLog" level="info" />
+			<AppenderRef ref="ConsoleLog" level="info" />
+		</Logger>
+		<Logger name="swiggy.logger" level="info" additivity="false">
+			<AppenderRef ref="Swiggy" level="info" />
+		</Logger>
+	</Loggers>
+</Configuration>

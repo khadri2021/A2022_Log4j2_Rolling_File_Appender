@@ -1,0 +1,140 @@
+2023-12-30 11:12:25.378 [http-nio-8080-exec-2] INFO  swiggy.logger - Hello
+2023-12-30 11:12:27.211 [http-nio-8080-exec-3] INFO  swiggy.logger - {
+  "id" : 2,
+  "name" : "ALLEN",
+  "college" : "KHADRI",
+  "phoneNumber" : 99999,
+  "address" : {
+    "doorNo" : 101,
+    "streetName" : "main road",
+    "landMark" : "Datta",
+    "town" : "kadiri"
+  },
+  "subject" : {
+    "sub1" : "core java",
+    "sub2" : "Adv Java",
+    "sub3" : "Hibernate",
+    "sub4" : "Spring",
+    "sub5" : "Spring Boot",
+    "sub6" : "Spring cloud"
+  },
+  "sport" : {
+    "cricket" : true,
+    "footBall" : false,
+    "valleyBal" : true,
+    "tennisBal" : false
+  },
+  "marks" : {
+    "sub1Marks" : "100",
+    "sub2Marks" : "80",
+    "sub3Marks" : "70",
+    "sub4Marks" : "35",
+    "sub5Marks" : "80",
+    "sub6Marks" : "76"
+  }
+}
+2023-12-30 11:12:27.211 [http-nio-8080-exec-3] INFO  swiggy.logger - Hello
+2023-12-30 11:12:28.634 [http-nio-8080-exec-7] INFO  swiggy.logger - {
+  "id" : 2,
+  "name" : "ALLEN",
+  "college" : "KHADRI",
+  "phoneNumber" : 99999,
+  "address" : {
+    "doorNo" : 101,
+    "streetName" : "main road",
+    "landMark" : "Datta",
+    "town" : "kadiri"
+  },
+  "subject" : {
+    "sub1" : "core java",
+    "sub2" : "Adv Java",
+    "sub3" : "Hibernate",
+    "sub4" : "Spring",
+    "sub5" : "Spring Boot",
+    "sub6" : "Spring cloud"
+  },
+  "sport" : {
+    "cricket" : true,
+    "footBall" : false,
+    "valleyBal" : true,
+    "tennisBal" : false
+  },
+  "marks" : {
+    "sub1Marks" : "100",
+    "sub2Marks" : "80",
+    "sub3Marks" : "70",
+    "sub4Marks" : "35",
+    "sub5Marks" : "80",
+    "sub6Marks" : "76"
+  }
+}
+2023-12-30 11:12:28.635 [http-nio-8080-exec-7] INFO  swiggy.logger - Hello
+2023-12-30 11:12:29.921 [http-nio-8080-exec-8] INFO  swiggy.logger - {
+  "id" : 2,
+  "name" : "ALLEN",
+  "college" : "KHADRI",
+  "phoneNumber" : 99999,
+  "address" : {
+    "doorNo" : 101,
+    "streetName" : "main road",
+    "landMark" : "Datta",
+    "town" : "kadiri"
+  },
+  "subject" : {
+    "sub1" : "core java",
+    "sub2" : "Adv Java",
+    "sub3" : "Hibernate",
+    "sub4" : "Spring",
+    "sub5" : "Spring Boot",
+    "sub6" : "Spring cloud"
+  },
+  "sport" : {
+    "cricket" : true,
+    "footBall" : false,
+    "valleyBal" : true,
+    "tennisBal" : false
+  },
+  "marks" : {
+    "sub1Marks" : "100",
+    "sub2Marks" : "80",
+    "sub3Marks" : "70",
+    "sub4Marks" : "35",
+    "sub5Marks" : "80",
+    "sub6Marks" : "76"
+  }
+}
+2023-12-30 11:12:29.921 [http-nio-8080-exec-8] INFO  swiggy.logger - Hello
+2023-12-30 11:12:40.461 [http-nio-8080-exec-10] INFO  swiggy.logger - {
+  "id" : 2,
+  "name" : "ALLEN",
+  "college" : "KHADRI",
+  "phoneNumber" : 99999,
+  "address" : {
+    "doorNo" : 101,
+    "streetName" : "main road",
+    "landMark" : "Datta",
+    "town" : "kadiri"
+  },
+  "subject" : {
+    "sub1" : "core java",
+    "sub2" : "Adv Java",
+    "sub3" : "Hibernate",
+    "sub4" : "Spring",
+    "sub5" : "Spring Boot",
+    "sub6" : "Spring cloud"
+  },
+  "sport" : {
+    "cricket" : true,
+    "footBall" : false,
+    "valleyBal" : true,
+    "tennisBal" : false
+  },
+  "marks" : {
+    "sub1Marks" : "100",
+    "sub2Marks" : "80",
+    "sub3Marks" : "70",
+    "sub4Marks" : "35",
+    "sub5Marks" : "80",
+    "sub6Marks" : "76"
+  }
+}
